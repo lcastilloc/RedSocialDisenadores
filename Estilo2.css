@@ -1,0 +1,117 @@
+head
+{
+    background-color: rgb(255, 254, 254);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    border-color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+body
+{
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    margin: 0;
+    font-size: 20px;
+    border-color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    vertical-align: middle;
+
+}
+
+*
+{
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 1%;
+    
+}
+
+h1 
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(7, 27, 90);
+} 
+input[type="email"],input[type="password"]
+{
+    font-size: 20px;
+    width: 82%;
+    padding: 00.5%;
+    border:white;
+
+}
+.input-contenedor
+{
+    margin-bottom: 15px;
+    border:1px solid rgb(0, 0, 0);
+}
+.icon
+{
+    min-width: 17%;
+    min-height: 100%;
+    max-width: 20%;
+    max-height: 100%;
+    text-align: center;
+    color:black;
+    vertical-align: middle;
+    scale: auto;
+}
+.button
+{
+    border: none;
+    width: 80%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background: rgb(7, 27, 90);
+    padding: 15px 20px;
+    border: radius 5px;
+    cursor: pointer;
+}
+.button:hover
+{
+    background: cadetblue;
+}
+p
+{
+    text-align: center;
+}
+.link
+{
+    text-decoration: none;
+    color: rgb(7, 27, 90);
+    font-weight: 600;
+}
+.link:hover
+{
+    color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: auto;
+        margin-top: 10px;
+        border-radius: 2%;
+        background-color: rgb(255, 255, 255);
+        padding: 0.8%;
+    }
+}
+
+#para1
+    {
+        font-size: 20px;
+        width: 82%;
+        padding: 10px;
+        border:white;
+    }
+table
+{
+    background-color: none;
+    border: brown;
+    width: 100%;
+    scale: "auto";
+}
